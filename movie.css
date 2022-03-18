@@ -99,19 +99,85 @@ header{
 
 #tags{
     width: 80%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin: 10px auto;
 }
+/* @media(max-width:991px){
+    #tags{
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+    .tag{
+        color: tomato;
+        padding: 10px 20px;
+        background-color: rebeccapurple;
+        border-radius: 50px;
+        margin: 5px;
+        display: inline-block;
+        cursor: pointer;
+    }
+} */
+
+
+
+
+.back-btn{
+    left: -222px;
+    top: -81px;
+    
+}
+.nav-btn{
+    top: 2px;
+    right: -14px;
+}
+.navicon{
+    position: absolute;
+    top: -29px;
+    transform: scale(0.2);
+    cursor: pointer;
+
+}
+.backicon{
+    position: absolute;
+    top: -221px;
+    transform: scale(0.2);
+    cursor: pointer;
+}
+.genre-list{
+    width: 90%;
+    height: 100%;
+    position: fixed;
+    top: 10px;
+    right: -100%;
+    padding: 0 30px;
+    background: rgba(242, 113, 33, 0.4);
+    z-index: 3;
+    transition: 1s;
+    overflow: auto;
+
+}
+.genre-list.active{
+    right: 27px;/*we control the play-list grow value*/
+}
+
+
+
+
+
 .tag{
     color: tomato;
     padding: 10px 20px;
     background-color: orange;
     border-radius: 50px;
     margin: 5px;
-    display: inline-block;
+    width: 206px;
     cursor: pointer;
 }
 .tag.highlight{
