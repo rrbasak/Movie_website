@@ -223,3 +223,18 @@ function clrbtn(){
     }
    
 }
+
+const generesection=document.querySelector('.genre-list')
+
+const navbtn = document.querySelector('.nav-btn')
+navbtn.addEventListener('click', () => {
+  generesection.classList.add('active')
+
+})
+
+
+//back from playlist to music player
+const returnto=document.querySelector('.genre-list .back-btn');
+returnto.addEventListener('click',()=>{
+  generesection.classList.remove('active');
+})
