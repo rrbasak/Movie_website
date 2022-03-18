@@ -23,10 +23,12 @@ header{
     background-color: transparent;
     border: 2px solid var(--primary-color);
     padding: 0.5rem 1rem;
+    margin-right: 427px;
     border-radius: 50px;
     font-size: 1rem;
     color: #fff;
     font-family: inherit;
+
 }
 .search:focus{
     outline: 0;
@@ -105,31 +107,12 @@ header{
     align-items: center; */
     margin: 10px auto;
 }
-/* @media(max-width:991px){
-    #tags{
-        width: 40%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 10px auto;
-    }
-    .tag{
-        color: tomato;
-        padding: 10px 20px;
-        background-color: rebeccapurple;
-        border-radius: 50px;
-        margin: 5px;
-        display: inline-block;
-        cursor: pointer;
-    }
-} */
 
 
 
 
 .back-btn{
-    left: -222px;
+    left: -112px;
     top: -81px;
     
 }
@@ -146,7 +129,7 @@ header{
 }
 .backicon{
     position: absolute;
-    top: -221px;
+    top: -96px;
     transform: scale(0.2);
     cursor: pointer;
 }
@@ -156,11 +139,12 @@ header{
     position: fixed;
     top: 10px;
     right: -100%;
-    padding: 0 30px;
+    padding: 0 53px;
     background: rgba(242, 113, 33, 0.4);
     z-index: 3;
     transition: 1s;
     overflow: auto;
+   
 
 }
 .genre-list.active{
