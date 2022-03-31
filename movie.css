@@ -13,6 +13,35 @@ body{
     font-family: "Poppins",'sans-serif';
     margin: 0;
 }
+
+.nav-btn div{
+    height: 4px;
+    background-color: white;
+    margin: 5px 430px;
+    border-radius: 25px;
+    transition: 0.1s;
+}
+
+.nav-btn{
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+}
+.one{
+    width: 30px;
+}
+.two{
+    width: 30px;
+}
+.three{
+    width: 30px;
+}
+
+/* .nav-btn:hover div{
+    width: 30px;
+} */
+
+
 header{
     padding: 1rem;
     display: flex;
@@ -23,7 +52,7 @@ header{
     background-color: transparent;
     border: 2px solid var(--primary-color);
     padding: 0.5rem 1rem;
-    margin-right: 427px;
+    margin-right: 96px;
     border-radius: 50px;
     font-size: 1rem;
     color: #fff;
@@ -140,7 +169,8 @@ header{
     top: 10px;
     right: -100%;
     padding: 0 53px;
-    background: rgba(242, 113, 33, 0.4);
+    /*background: rgba(242, 113, 33, 0.4);*/
+    background-color: black;
     z-index: 3;
     transition: 1s;
     overflow: auto;
@@ -156,16 +186,18 @@ header{
 
 
 .tag{
-    color: tomato;
+    color: rgb(198, 202, 221);
     padding: 10px 20px;
-    background-color: orange;
+    /*background-color: orange;*/
+    background-color: rgba(45, 53, 124, 0.4);
     border-radius: 50px;
     margin: 5px;
     width: 206px;
     cursor: pointer;
 }
 .tag.highlight{
-    background-color: rgb(201, 172, 172);
+    background-color: rgb(190, 74, 74);
+    
 }
 .NO{
     color: wheat;
